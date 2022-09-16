@@ -1,9 +1,9 @@
 "use strict";
 exports.__esModule = true;
 var users = [
-    { id: 1, name: "Andrea", age: 3 },
+    { id: 1, name: "Mownika", age: 14 },
     { id: 2, name: "Tom", age: 4 },
-    { id: 3, name: "Gabriel", age: 5 },
+    { id: 3, name: "Jerry", age: 5 },
 ];
 exports.getAllUsers = function (req, res, next) {
     res.json(users);
