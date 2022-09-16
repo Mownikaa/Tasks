@@ -1,9 +1,9 @@
 import { NextFunction, Response, Request } from "express";
 
 const users = [
-    { id: 1, name: "Andrea", age: 3 },
+    { id: 1, name: "Mownika", age: 14 },
     { id: 2, name: "Tom", age: 4 },
-    { id: 3, name: "Gabriel", age: 5 },
+    { id: 3, name: "Jerry", age: 5 },
   ];
   export const getAllUsers = (
     req: Request,
